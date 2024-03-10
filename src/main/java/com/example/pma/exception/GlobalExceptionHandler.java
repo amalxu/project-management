@@ -1,4 +1,4 @@
-package com.example.pma.exceptionhandling;
+package com.example.pma.exception;
 
 public class GlobalExceptionHandler {
     

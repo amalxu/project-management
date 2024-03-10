@@ -2,11 +2,14 @@ package com.example.pma.controllers;
 
 import com.example.pma.models.Project;
 import com.example.pma.services.ProjectService; // Use proper casing for ProjectService
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
+// @SpringBootApplication
 
 @RestController
 @RequestMapping("/projects")
